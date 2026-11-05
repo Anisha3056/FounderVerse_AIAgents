@@ -48,8 +48,7 @@ Currently implementing:
 - Backend-side LLM provider
 - Base agent architecture
 - Memory interface
-- Agent data assistant
-- RL experience schema
+
 
 ## Running Backend
 
