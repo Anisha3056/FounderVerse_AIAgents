@@ -20,8 +20,7 @@ Agent Data Assistant
 MongoDB / Vector Knowledge
 ↓
 Simulation Engine
-↓
-Reward & Learning System
+
 
 ## Core Components
 
