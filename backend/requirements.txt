@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+pymongo
+python-dotenv
+httpx
+numpy
+google-genai
+PyJWT
+pwdlib[argon2]
+email-validator

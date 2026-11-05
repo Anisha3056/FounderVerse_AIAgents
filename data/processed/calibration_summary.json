@@ -1,0 +1,46 @@
+{
+  "dataset_name": "FounderVerse subscription dataset",
+  "calibration_window": {
+    "start": "2024-01",
+    "end": "2025-09",
+    "months": 21
+  },
+  "observed_subscription_metrics": {
+    "mean_new_subscriptions_per_month": 151.9047619047619,
+    "median_new_subscriptions_per_month": 148.0,
+    "mean_established_monthly_churn": 0.01276276822741743,
+    "median_established_monthly_churn": 0.012883668056081848,
+    "total_new_subscriptions_in_window": 3190,
+    "total_established_cancellations_in_window": 754
+  },
+  "current_recorded_subscription_snapshot": {
+    "active_subscriptions": 4035,
+    "cancelled_subscriptions": 965,
+    "active_subscription_mrr": 1387441.0
+  },
+  "payment_observations": {
+    "invoice_count": 85448,
+    "payment_attempt_count": 87287,
+    "invoices_with_failed_attempts": 7186,
+    "invoices_with_both_failed_and_successful_attempts": 6722,
+    "invoices_with_failed_attempts_only": 464
+  },
+  "data_quality": {
+    "missing_account_region_count": 1247,
+    "subscription_status_date_consistency_passed": true,
+    "foreign_key_checks": {
+      "subscription_accounts_missing": 0,
+      "subscription_plans_missing": 0,
+      "invoice_subscriptions_missing": 0,
+      "payment_invoices_missing": 0
+    }
+  },
+  "limitations": [
+    "Observational data does not identify causal effects of founder decisions.",
+    "Subscription acquisition records stop in October 2025 while cancellations continue through December 2025.",
+    "Monthly metrics are provisional until historical data completeness is confirmed.",
+    "Acquisition counts are not universal rates for startups of different sizes.",
+    "Revenue, expenses, and cash-flow assumptions must be validated separately.",
+    "Failed payment attempts must not be treated automatically as lost revenue."
+  ]
+}

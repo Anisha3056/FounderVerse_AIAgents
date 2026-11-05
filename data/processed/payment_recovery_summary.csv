@@ -1,0 +1,4 @@
+invoice_status,failed_attempts_only,has_successful_payment,no_recorded_payment
+open,464,0,4847
+paid,0,80101,0
+void,0,0,36

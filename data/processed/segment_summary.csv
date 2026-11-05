@@ -1,0 +1,4 @@
+segment,subscriptions,active_subscriptions,cancelled_subscriptions,total_recorded_mrr,average_recorded_mrr,recorded_cancellation_proportion
+SMB,3522,2823,699,417106.0,118.42873367404884,0.19846678023850084
+enterprise,305,246,59,584003.0,1914.7639344262295,0.19344262295081968
+mid_market,1173,966,207,729005.0,621.4876385336744,0.17647058823529413

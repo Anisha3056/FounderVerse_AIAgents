@@ -1,0 +1,161 @@
+﻿configuration,question_weight,content_weight,retrieval_strategy,mmr_lambda,query_id,query_text,agent_name,retrieved_count,judged_in_top_k,unknown_in_top_k,relevant_total_judged_for_agent,borderline_total_for_agent,relevant_retrieved,borderline_retrieved,unique_relevant_coverage_at_5_count,normalized_unique_relevant_coverage_at_5,redundancy_rate_at_5,redundancy_assessed,judged_precision_at_5,conservative_precision_at_5,pooled_recall_at_5,reciprocal_rank,judged_precision_at_5_including_borderline,recall_at_5_including_borderline,local_scoring_latency_ms
+Stage 1 - Recency only,0.0,0.0,recency,,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,1,,,,False,0.4,0.4,1.0,1.0,0.6,0.3333333333333333,0.061
+Stage 1 - Recency only,0.0,0.0,recency,,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,0.033
+Stage 1 - Recency only,0.0,0.0,recency,,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,0.023
+Stage 1 - Recency only,0.0,0.0,recency,,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,0.02
+Stage 1 - Recency only,0.0,0.0,recency,,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,0.5,1.0,0.45454545454545453,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,0.5,0.4,1.0,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,0.5,0.4,1.0,0.016
+Stage 1 - Recency only,0.0,0.0,recency,,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,0.5,0.4,1.0,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,0.5,0.4,1.0,0.016
+Stage 1 - Recency only,0.0,0.0,recency,,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,1,2,1,0.5,0.0,True,0.2,0.2,0.16666666666666666,0.3333333333333333,0.6,0.3333333333333333,0.016
+Stage 1 - Recency only,0.0,0.0,recency,,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,1,2,1,0.5,0.2,True,0.2,0.2,0.14285714285714285,0.3333333333333333,0.6,0.3,0.019
+Stage 1 - Recency only,0.0,0.0,recency,,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,2,3,2,0.6666666666666666,0.4,True,0.4,0.4,0.25,1.0,1.0,0.4166666666666667,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,3,2,3,0.75,0.4,True,0.6,0.6,0.375,1.0,1.0,0.4166666666666667,0.017
+Stage 1 - Recency only,0.0,0.0,recency,,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,1,2,1,0.5,0.4,True,0.2,0.2,0.16666666666666666,0.3333333333333333,0.6,0.3333333333333333,0.016
+Stage 1 - Recency only,0.0,0.0,recency,,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,0,1,0,0.0,0.0,True,0.0,0.0,0.0,0.0,0.2,0.14285714285714285,0.016
+Stage 1 - Recency only,0.0,0.0,recency,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,2,1,2,0.5,0.2,True,0.4,0.4,0.2222222222222222,1.0,0.6,0.3,0.018
+Stage 1 - Recency only,0.0,0.0,recency,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,2,1,2,0.5,0.2,True,0.4,0.4,0.2222222222222222,1.0,0.6,0.3,0.025
+Stage 1 - Recency only,0.0,0.0,recency,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,2,1,2,0.5,0.2,True,0.4,0.4,0.2222222222222222,1.0,0.6,0.3,0.019
+Stage 1 - Recency only,0.0,0.0,recency,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,3,1,3,0.75,0.4,True,0.6,0.6,0.375,1.0,0.8,0.4,0.016
+Question only,1.0,0.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.5555555555555556,19.831
+Question only,1.0,0.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.153
+Question only,1.0,0.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,19.692
+Question only,1.0,0.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,19.298
+Question only,1.0,0.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.475
+Question only,1.0,0.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,3,3,0,2,9,2,1,,,,False,0.6666666666666666,0.4,1.0,1.0,1.0,0.2727272727272727,18.339
+Question only,1.0,0.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,18.169
+Question only,1.0,0.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,21.56
+Question only,1.0,0.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,20.836
+Question only,1.0,0.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,3,3,0,2,0,2,0,,,,False,0.6666666666666666,0.4,1.0,1.0,0.6666666666666666,1.0,18.489
+Question only,1.0,0.0,semantic,,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,17.921
+Question only,1.0,0.0,semantic,,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,18.877
+Question only,1.0,0.0,semantic,,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,17.734
+Question only,1.0,0.0,semantic,,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,18.968
+Question only,1.0,0.0,semantic,,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,18.043
+Question only,1.0,0.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,2,3,2,1.0,0.4,True,0.4,0.4,1.0,0.5,1.0,0.7142857142857143,18.912
+Question only,1.0,0.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,18.729
+Question only,1.0,0.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,26.077
+Question only,1.0,0.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,22.323
+Question only,1.0,0.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,2,0.5,0.4,True,0.8,0.8,0.5,0.5,1.0,0.5,19.448
+Current baseline 70/30,0.7,0.3,semantic,,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.5555555555555556,18.551
+Current baseline 70/30,0.7,0.3,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,19.623
+Current baseline 70/30,0.7,0.3,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.917
+Current baseline 70/30,0.7,0.3,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.46
+Current baseline 70/30,0.7,0.3,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.79
+Current baseline 70/30,0.7,0.3,semantic,,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,19.087
+Current baseline 70/30,0.7,0.3,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,23.524
+Current baseline 70/30,0.7,0.3,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,21.683
+Current baseline 70/30,0.7,0.3,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,19.031
+Current baseline 70/30,0.7,0.3,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,2,2,0,2,0,2,0,,,,False,1.0,0.4,1.0,1.0,1.0,1.0,19.636
+Current baseline 70/30,0.7,0.3,semantic,,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,20.6
+Current baseline 70/30,0.7,0.3,semantic,,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,17.94
+Current baseline 70/30,0.7,0.3,semantic,,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,20.84
+Current baseline 70/30,0.7,0.3,semantic,,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,20.516
+Current baseline 70/30,0.7,0.3,semantic,,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,18.772
+Current baseline 70/30,0.7,0.3,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,2,3,2,1.0,0.4,True,0.4,0.4,1.0,0.5,1.0,0.7142857142857143,19.933
+Current baseline 70/30,0.7,0.3,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,23.107
+Current baseline 70/30,0.7,0.3,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,20.165
+Current baseline 70/30,0.7,0.3,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,19.932
+Current baseline 70/30,0.7,0.3,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,2,0.5,0.4,True,0.8,0.8,0.5,0.5,1.0,0.5,18.387
+Balanced 50/50,0.5,0.5,semantic,,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.5555555555555556,19.578
+Balanced 50/50,0.5,0.5,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.145
+Balanced 50/50,0.5,0.5,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.155
+Balanced 50/50,0.5,0.5,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,19.699
+Balanced 50/50,0.5,0.5,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.266
+Balanced 50/50,0.5,0.5,semantic,,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,21.994
+Balanced 50/50,0.5,0.5,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.459
+Balanced 50/50,0.5,0.5,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,3,3,0,2,0,2,0,,,,False,0.6666666666666666,0.4,1.0,1.0,0.6666666666666666,1.0,18.567
+Balanced 50/50,0.5,0.5,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,19.993
+Balanced 50/50,0.5,0.5,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,20.805
+Balanced 50/50,0.5,0.5,semantic,,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,20.743
+Balanced 50/50,0.5,0.5,semantic,,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,22.491
+Balanced 50/50,0.5,0.5,semantic,,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,19.12
+Balanced 50/50,0.5,0.5,semantic,,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,18.798
+Balanced 50/50,0.5,0.5,semantic,,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,18.074
+Balanced 50/50,0.5,0.5,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,1,4,1,0.5,0.4,True,0.2,0.2,0.5,0.5,1.0,0.7142857142857143,22.728
+Balanced 50/50,0.5,0.5,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,19.387
+Balanced 50/50,0.5,0.5,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,19.036
+Balanced 50/50,0.5,0.5,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,18.919
+Balanced 50/50,0.5,0.5,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,2,0.5,0.4,True,0.8,0.8,0.5,0.5,1.0,0.5,18.265
+Content only,0.0,1.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,2,,,,False,0.4,0.4,1.0,1.0,0.8,0.4444444444444444,20.36
+Content only,0.0,1.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,25.001
+Content only,0.0,1.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,22.754
+Content only,0.0,1.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,20.645
+Content only,0.0,1.0,semantic,,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,30.045
+Content only,0.0,1.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,25.345
+Content only,0.0,1.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,24.922
+Content only,0.0,1.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,27.403
+Content only,0.0,1.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,3,3,0,2,0,2,0,,,,False,0.6666666666666666,0.4,1.0,1.0,0.6666666666666666,1.0,25.099
+Content only,0.0,1.0,semantic,,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,22.401
+Content only,0.0,1.0,semantic,,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,29.68
+Content only,0.0,1.0,semantic,,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,20.886
+Content only,0.0,1.0,semantic,,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,19.136
+Content only,0.0,1.0,semantic,,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,25.624
+Content only,0.0,1.0,semantic,,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,18.206
+Content only,0.0,1.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,1,3,1,0.5,0.2,True,0.2,0.2,0.5,0.5,0.8,0.5714285714285714,19.507
+Content only,0.0,1.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,19.425
+Content only,0.0,1.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,5,0,3,0.75,0.4,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,19.849
+Content only,0.0,1.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,4,1.0,0.2,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,20.867
+Content only,0.0,1.0,semantic,,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,1,0.25,0.6,True,0.8,0.8,0.5,0.5,1.0,0.5,18.351
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.5555555555555556,17.882
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,17.151
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,21.152
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,17.681
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,17.064
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,17.479
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.246
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.867
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.746
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,2,2,0,2,0,2,0,,,,False,1.0,0.4,1.0,1.0,1.0,1.0,16.742
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,17.581
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,17.983
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,21.539
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,18.602
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,17.247
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,2,2,2,1.0,0.2,True,0.4,0.4,1.0,0.5,0.8,0.5714285714285714,17.325
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,5,0,4,1.0,0.2,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,17.337
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,5,0,4,1.0,0.2,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,17.891
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,4,1.0,0.2,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,17.063
+Stage 3 - MMR lambda 0.8,0.7,0.3,mmr,0.8,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,3,0.75,0.2,True,0.8,0.8,0.5,0.5,1.0,0.5,17.032
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,2,,,,False,0.4,0.4,1.0,1.0,0.8,0.4444444444444444,18.006
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,16.996
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,24.562
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.115
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,17.239
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,16.755
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.3
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,16.926
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.312
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,2,2,0,2,0,2,0,,,,False,1.0,0.4,1.0,1.0,1.0,1.0,16.982
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,19.1
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,5,0,1,0.5,0.8,True,1.0,1.0,0.7142857142857143,1.0,1.0,0.5,17.902
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,5,0,1,0.3333333333333333,0.8,True,1.0,1.0,0.625,1.0,1.0,0.4166666666666667,22.487
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,4,1,1,0.25,0.8,True,0.8,0.8,0.5,1.0,1.0,0.4166666666666667,17.533
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,5,0,1,0.5,0.8,True,1.0,1.0,0.8333333333333334,1.0,1.0,0.5555555555555556,17.234
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,2,2,2,1.0,0.2,True,0.4,0.4,1.0,0.3333333333333333,0.8,0.5714285714285714,17.571
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,4,0,4,1.0,0.0,True,0.8,0.8,0.4444444444444444,1.0,0.8,0.4,18.047
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,4,0,4,1.0,0.0,True,0.8,0.8,0.4444444444444444,1.0,0.8,0.4,17.87
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,5,0,4,1.0,0.2,True,1.0,1.0,0.5555555555555556,1.0,1.0,0.5,17.766
+Stage 3 - MMR lambda 0.6,0.7,0.3,mmr,0.6,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,3,0.75,0.2,True,0.8,0.8,0.5,0.5,1.0,0.5,17.891
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q3,How can we reduce operating expenses without damaging growth?,CTO Agent,5,5,0,2,7,2,2,,,,False,0.4,0.4,1.0,1.0,0.8,0.4444444444444444,17.69
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q3,How can we reduce operating expenses without damaging growth?,Finance Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,17.556
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q3,How can we reduce operating expenses without damaging growth?,Sales Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,21.125
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q3,How can we reduce operating expenses without damaging growth?,Marketing Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,16.82
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q3,How can we reduce operating expenses without damaging growth?,Legal Agent,5,5,0,2,0,2,0,,,,False,0.4,0.4,1.0,1.0,0.4,1.0,18.158
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q4,Should we invest in improving platform reliability and scalability?,CTO Agent,5,5,0,2,9,2,3,,,,False,0.4,0.4,1.0,1.0,1.0,0.45454545454545453,16.818
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q4,Should we invest in improving platform reliability and scalability?,Finance Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,16.969
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q4,Should we invest in improving platform reliability and scalability?,Sales Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,16.674
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q4,Should we invest in improving platform reliability and scalability?,Marketing Agent,4,4,0,2,0,2,0,,,,False,0.5,0.4,1.0,1.0,0.5,1.0,17.595
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q4,Should we invest in improving platform reliability and scalability?,Legal Agent,2,2,0,2,0,2,0,,,,False,1.0,0.4,1.0,1.0,1.0,1.0,16.611
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q1,What are effective ways to bring in more new customers?,CTO Agent,5,5,0,6,3,3,1,1,0.5,0.4,True,0.6,0.6,0.5,1.0,0.8,0.4444444444444444,17.514
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q1,What are effective ways to bring in more new customers?,Finance Agent,5,5,0,7,3,3,1,1,0.5,0.4,True,0.6,0.6,0.42857142857142855,1.0,0.8,0.4,17.011
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q1,What are effective ways to bring in more new customers?,Sales Agent,5,5,0,8,4,3,2,2,0.6666666666666666,0.2,True,0.6,0.6,0.375,1.0,1.0,0.4166666666666667,20.672
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q1,What are effective ways to bring in more new customers?,Marketing Agent,5,5,0,8,4,3,2,2,0.5,0.4,True,0.6,0.6,0.375,1.0,1.0,0.4166666666666667,17.696
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q1,What are effective ways to bring in more new customers?,Legal Agent,5,5,0,6,3,3,1,1,0.5,0.4,True,0.6,0.6,0.5,1.0,0.8,0.4444444444444444,17.496
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q2,"Should we increase our marketing budget, and how should we allocate it?",CTO Agent,5,5,0,2,5,2,1,2,1.0,0.0,True,0.4,0.4,1.0,0.3333333333333333,0.6,0.42857142857142855,18.989
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q2,"Should we increase our marketing budget, and how should we allocate it?",Finance Agent,5,5,0,9,1,4,0,4,1.0,0.0,True,0.8,0.8,0.4444444444444444,1.0,0.8,0.4,17.302
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q2,"Should we increase our marketing budget, and how should we allocate it?",Sales Agent,5,5,0,9,1,4,0,4,1.0,0.0,True,0.8,0.8,0.4444444444444444,1.0,0.8,0.4,16.616
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q2,"Should we increase our marketing budget, and how should we allocate it?",Marketing Agent,5,5,0,9,1,4,0,4,1.0,0.0,True,0.8,0.8,0.4444444444444444,1.0,0.8,0.4,17.819
+Stage 3 - MMR lambda 0.4,0.7,0.3,mmr,0.4,Q2,"Should we increase our marketing budget, and how should we allocate it?",Legal Agent,5,5,0,8,2,4,1,3,0.75,0.2,True,0.8,0.8,0.5,0.5,1.0,0.5,17.169

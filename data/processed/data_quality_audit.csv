@@ -1,0 +1,6 @@
+dataset,rows,columns,duplicate_rows,missing_cells
+accounts,5000,5,0,1247
+subscriptions,5000,8,0,4035
+plans,4,4,0,0
+invoices,85448,6,0,0
+payments,87287,5,0,0

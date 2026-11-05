@@ -1,0 +1,1928 @@
+[
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf19824719da83147f157d",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf198e4719da83147f157e",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf199c4719da83147f157f",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf19a74719da83147f1580",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf19b14719da83147f1581",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1c074719da83147f1582",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf19824719da83147f157d",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1c144719da83147f1583",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Recommendation okay, but reasoning, main risk & next action is redundant with 6acf198e4719da83147f157e",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1c1b4719da83147f1584",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf199c4719da83147f157f",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1c274719da83147f1585",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf19a74719da83147f1580",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1c324719da83147f1586",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Recommendation & Reasoning are relevant, but Main risk & next actions are redundant to 6acf19b14719da83147f1581",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1e4f053a11fdbda494d5",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1e56053a11fdbda494d6",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf1e61053a11fdbda494d7",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf23fd328dd2071e1d7a49",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf1e4f053a11fdbda494d5",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf2408328dd2071e1d7a4a",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf1e56053a11fdbda494d6",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf2413328dd2071e1d7a4b",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf1e61053a11fdbda494d7",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf2420328dd2071e1d7a4c",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6acf242b328dd2071e1d7a4d",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad1a830d1f9118308cbc0c0",
+    "agent_name": "Finance Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad1a839d1f9118308cbc0c1",
+    "agent_name": "Marketing Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad1a843d1f9118308cbc0c2",
+    "agent_name": "Sales Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad1a84fd1f9118308cbc0c3",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not so relevant for customer acquistion, but is reasonable for its own agent response",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad1a856d1f9118308cbc0c4",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not so relevant for customer acquistion, but is reasonable for its own agent response",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad47d653c16800335881b16",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19824719da83147f157d 6acf199c4719da83147f157f",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad47d6d3c16800335881b17",
+    "agent_name": "Marketing Agent",
+    "label": "unknown",
+    "raw_label": "Recommendation similar to 6acf19b14719da83147f1581  Main risk  & next action similar to 6acf198e4719da83147f157e Although in total the whole complete content is a little bit okay to relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad47d763c16800335881b18",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf199c4719da83147f157f",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad47d7f3c16800335881b19",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19a74719da83147f1580 except for the reasoning",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad47d883c16800335881b1a",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19b14719da83147f1581, but main risk and next action are a bit different, and worth noticing ",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f1dac0b8029cbd19073b",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19824719da83147f157d",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f1e0c0b8029cbd19073c",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf198e4719da83147f157e",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f1e8c0b8029cbd19073d",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same with 6acf199c4719da83147f157f",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f1efc0b8029cbd19073e",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same with 6acf19a74719da83147f1580",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f1f7c0b8029cbd19073f",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with  6acf19b14719da83147f1581",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f257c0b8029cbd190742",
+    "agent_name": "Marketing Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f30bc0b8029cbd190748",
+    "agent_name": "Marketing Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f315c0b8029cbd190749",
+    "agent_name": "Sales Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f4ea011866f2e4376ee2",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19824719da83147f157d, main risk is same as it is",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f4f2011866f2e4376ee3",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with \n6acf198e4719da83147f157e",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f4fb011866f2e4376ee4",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf199c4719da83147f157f,  main risk is same as it is",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f504011866f2e4376ee5",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19a74719da83147f1580",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f50b011866f2e4376ee6",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19b14719da83147f1581",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f59c011866f2e4376ee8",
+    "agent_name": "Finance Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f5a4011866f2e4376ee9",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6ad4f257c0b8029cbd190742",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f5b4011866f2e4376eeb",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "more than a bit borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f5ef011866f2e4376eef",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6ad4f30bc0b8029cbd190748",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q1",
+    "query_text": "What are effective ways to bring in more new customers?",
+    "memory_id": "6ad4f5f9011866f2e4376ef0",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same as 6ad4f315c0b8029cbd190749",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf19824719da83147f157d",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf23fd328dd2071e1d7a49",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf1e4f053a11fdbda494d5",
+    "review_notes": " | Redundancy: Redundant with 6acf1e4f053a11fdbda494d5"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad47d653c16800335881b16",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19824719da83147f157d 6acf199c4719da83147f157f",
+    "review_notes": " | Redundancy: Redundant with 6acf19824719da83147f157d 6acf199c4719da83147f157f"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf2408328dd2071e1d7a4a",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf1e56053a11fdbda494d6",
+    "review_notes": " | Redundancy: Redundant 6acf1e56053a11fdbda494d6"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1e56053a11fdbda494d6",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f1dac0b8029cbd19073b",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19824719da83147f157d",
+    "review_notes": " | Redundancy: Redundant to 6acf19824719da83147f157d"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1e4f053a11fdbda494d5",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad1a830d1f9118308cbc0c0",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad1a839d1f9118308cbc0c1",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf198e4719da83147f157e",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1c144719da83147f1583",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Recommendation okay, but reasoning, main risk & next action is redundant with 6acf198e4719da83147f157e",
+    "review_notes": " | Redundancy: Recommendation okay, but reasoning, main risk & next action is redundant with 6acf198e4719da83147f157e"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad47d6d3c16800335881b17",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Recommendation similar to 6acf19b14719da83147f1581 Main risk & next action similar to 6acf198e4719da83147f157e",
+    "review_notes": " | Redundancy: Recommendation similar to 6acf19b14719da83147f1581 Main risk & next action similar to 6acf198e4719da83147f157e"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f1e0c0b8029cbd19073c",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf198e4719da83147f157e",
+    "review_notes": " | Redundancy: Redundant to 6acf198e4719da83147f157e"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad1a84fd1f9118308cbc0c3",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf242b328dd2071e1d7a4d",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad1a856d1f9118308cbc0c4",
+    "agent_name": "Legal Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f4ea011866f2e4376ee2",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19824719da83147f157d, main risk is same as it is",
+    "review_notes": " | Redundancy: Redundant with 6acf19824719da83147f157d, main risk is same as it is"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf2413328dd2071e1d7a4b",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf1e61053a11fdbda494d7",
+    "review_notes": " | Redundancy: Redundant 6acf1e61053a11fdbda494d7"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1e61053a11fdbda494d7",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf2420328dd2071e1d7a4c",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f257c0b8029cbd190742",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f4f2011866f2e4376ee3",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf198e4719da83147f157e",
+    "review_notes": " | Redundancy: Redundant with 6acf198e4719da83147f157e"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad1a843d1f9118308cbc0c2",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1c324719da83147f1586",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Recommendation & Reasoning are relevant, but Main risk & next actions are redundant to 6acf19b14719da83147f1581",
+    "review_notes": " | Redundancy: Recommendation & Reasoning are relevant, but Main risk & next actions are redundant to 6acf19b14719da83147f1581"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad47d883c16800335881b1a",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19b14719da83147f1581, but main risk and next action are a bit different",
+    "review_notes": " | Redundancy: Redundant to 6acf19b14719da83147f1581, but main risk and next action are a bit different"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1c074719da83147f1582",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf19824719da83147f157d",
+    "review_notes": " | Redundancy: Redundant 6acf19824719da83147f157d"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f50b011866f2e4376ee6",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19b14719da83147f1581",
+    "review_notes": " | Redundancy: Redundant with 6acf19b14719da83147f1581"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f30bc0b8029cbd190748",
+    "agent_name": "Marketing Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5ef011866f2e4376eef",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6ad4f30bc0b8029cbd190748",
+    "review_notes": " | Redundancy: Redundant with 6ad4f30bc0b8029cbd190748"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad47d763c16800335881b18",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf199c4719da83147f157f",
+    "review_notes": " | Redundancy: Redundant to 6acf199c4719da83147f157f"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f1f7c0b8029cbd19073f",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf19b14719da83147f1581",
+    "review_notes": " | Redundancy: Redundant with 6acf19b14719da83147f1581"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5a4011866f2e4376ee9",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf1c1b4719da83147f1584",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant 6acf199c4719da83147f157f",
+    "review_notes": " | Redundancy: Redundant 6acf199c4719da83147f157f"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f315c0b8029cbd190749",
+    "agent_name": "Sales Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5f9011866f2e4376ef0",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same as 6ad4f315c0b8029cbd190749",
+    "review_notes": " | Redundancy: Ditto same to same as 6ad4f315c0b8029cbd190749"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad47d7f3c16800335881b19",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Redundant to 6acf19a74719da83147f1580 except for the reasoning",
+    "review_notes": " | Redundancy: Redundant to 6acf19a74719da83147f1580 except for the reasoning"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f1e8c0b8029cbd19073d",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same with 6acf199c4719da83147f157f",
+    "review_notes": " | Redundancy: Ditto same to same with 6acf199c4719da83147f157f"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f4fb011866f2e4376ee4",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6acf199c4719da83147f157f, main risk is same as it is",
+    "review_notes": " | Redundancy: Redundant with 6acf199c4719da83147f157f, main risk is same as it is"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf19b14719da83147f1581",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f59c011866f2e4376ee8",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f24fc0b8029cbd190741",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5ff011866f2e4376ef1",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f2fec0b8029cbd190747",
+    "agent_name": "Finance Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5e8011866f2e4376eee",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Redundant with 6ad4f2fec0b8029cbd190747",
+    "review_notes": " | Redundancy: Redundant with 6ad4f2fec0b8029cbd190747"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f327c0b8029cbd19074b",
+    "agent_name": "Legal Agent",
+    "label": "borderline",
+    "raw_label": "Borderline relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f31ec0b8029cbd19074a",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f607011866f2e4376ef2",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same as 6ad4f327c0b8029cbd19074b",
+    "review_notes": " | Redundancy: Ditto same to same as 6ad4f327c0b8029cbd19074b"
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6acf199c4719da83147f157f",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f25fc0b8029cbd190743",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f268c0b8029cbd190744",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f26fc0b8029cbd190745",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant for marketing budget",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q2",
+    "query_text": "Should we increase our marketing budget, and how should we allocate it?",
+    "memory_id": "6ad4f5bc011866f2e4376eec",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Ditto same to same as 6ad4f26fc0b8029cbd190745",
+    "review_notes": " | Redundancy: Ditto same to same as 6ad4f26fc0b8029cbd190745"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f4ea011866f2e4376ee2",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf19824719da83147f157d",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf23fd328dd2071e1d7a49",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f59c011866f2e4376ee8",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad1a830d1f9118308cbc0c0",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f24fc0b8029cbd190741",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1e4f053a11fdbda494d5",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad47d653c16800335881b16",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad1a839d1f9118308cbc0c1",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1c074719da83147f1582",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f30bc0b8029cbd190748",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f1dac0b8029cbd19073b",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f2fec0b8029cbd190747",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5e8011866f2e4376eee",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f2fec0b8029cbd190747"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f315c0b8029cbd190749",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f257c0b8029cbd190742",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1c144719da83147f1583",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf2408328dd2071e1d7a4a",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad47d6d3c16800335881b17",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5f9011866f2e4376ef0",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Ditto same to same as 6ad4f315c0b8029cbd190749"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f268c0b8029cbd190744",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5ff011866f2e4376ef1",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5ef011866f2e4376eef",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f30bc0b8029cbd190748"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1e56053a11fdbda494d6",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f1e0c0b8029cbd19073c",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f4f2011866f2e4376ee3",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1e61053a11fdbda494d7",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf2413328dd2071e1d7a4b",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f31ec0b8029cbd19074a",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f5ff011866f2e4376ef1"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad1a843d1f9118308cbc0c2",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5a4011866f2e4376ee9",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf2420328dd2071e1d7a4c",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f327c0b8029cbd19074b",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f25fc0b8029cbd190743",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5b4011866f2e4376eeb",
+    "agent_name": "CTO Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad1a856d1f9118308cbc0c4",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf198e4719da83147f157e",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f26fc0b8029cbd190745",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1c1b4719da83147f1584",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad47d763c16800335881b18",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf19a74719da83147f1580",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Plausible indirect effect on operating expenses by automating onboarding/support"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5bc011866f2e4376eec",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f607011866f2e4376ef2",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Ditto same to same as 6ad4f327c0b8029cbd19074b"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f1e8c0b8029cbd19073d",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f4fb011866f2e4376ee4",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f5ab011866f2e4376eea",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad1a84fd1f9118308cbc0c3",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f1efc0b8029cbd19073e",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf199c4719da83147f157f",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1c274719da83147f1585",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad47d7f3c16800335881b19",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f504011866f2e4376ee5",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580 regarding product-led onboarding"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf1c324719da83147f1586",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf242b328dd2071e1d7a4d",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f50b011866f2e4376ee6",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6acf19b14719da83147f1581",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad47d883c16800335881b1a",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q3",
+    "query_text": "How can we reduce operating expenses without damaging growth?",
+    "memory_id": "6ad4f1f7c0b8029cbd19073f",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for operating expenses reduction"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5b4011866f2e4376eeb",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f268c0b8029cbd190744",
+    "agent_name": "CTO Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f5b4011866f2e4376eeb"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5ab011866f2e4376eea",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f59c011866f2e4376ee8",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f26fc0b8029cbd190745",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f24fc0b8029cbd190741",
+    "agent_name": "Finance Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f59c011866f2e4376ee8"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f25fc0b8029cbd190743",
+    "agent_name": "Sales Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f5ab011866f2e4376eea"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5ff011866f2e4376ef1",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Plausible relevance regarding cloud infrastructure right-sizing & scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5bc011866f2e4376eec",
+    "agent_name": "Legal Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Ditto same to same as 6ad4f26fc0b8029cbd190745"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f257c0b8029cbd190742",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": ""
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f31ec0b8029cbd19074a",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant with 6ad4f5ff011866f2e4376ef1"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5a4011866f2e4376ee9",
+    "agent_name": "Marketing Agent",
+    "label": "relevant",
+    "raw_label": "Relevant",
+    "review_notes": "Redundant with 6ad4f257c0b8029cbd190742"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad47d7f3c16800335881b19",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f504011866f2e4376ee5",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1c274719da83147f1585",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf2420328dd2071e1d7a4c",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad1a84fd1f9118308cbc0c3",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf19a74719da83147f1580",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Mentions rate-limiting and platform infrastructure strain"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f1efc0b8029cbd19073e",
+    "agent_name": "CTO Agent",
+    "label": "borderline",
+    "raw_label": "Borderline",
+    "review_notes": "Redundant to 6acf19a74719da83147f1580"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f327c0b8029cbd19074b",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f2fec0b8029cbd190747",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f607011866f2e4376ef2",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f315c0b8029cbd190749",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1c074719da83147f1582",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf23fd328dd2071e1d7a49",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5e8011866f2e4376eee",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1e4f053a11fdbda494d5",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad47d653c16800335881b16",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5f9011866f2e4376ef0",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf19824719da83147f157d",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f1dac0b8029cbd19073b",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f4ea011866f2e4376ee2",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf2408328dd2071e1d7a4a",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad1a839d1f9118308cbc0c1",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad47d6d3c16800335881b17",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad1a843d1f9118308cbc0c2",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad1a830d1f9118308cbc0c0",
+    "agent_name": "Finance Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1c324719da83147f1586",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f1f7c0b8029cbd19073f",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f50b011866f2e4376ee6",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1c144719da83147f1583",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f30bc0b8029cbd190748",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f5ef011866f2e4376eef",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf199c4719da83147f157f",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad47d763c16800335881b18",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f1e8c0b8029cbd19073d",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f4fb011866f2e4376ee4",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf242b328dd2071e1d7a4d",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad1a856d1f9118308cbc0c4",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad47d883c16800335881b1a",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1e56053a11fdbda494d6",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f1e0c0b8029cbd19073c",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf198e4719da83147f157e",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6ad4f4f2011866f2e4376ee3",
+    "agent_name": "Marketing Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1e61053a11fdbda494d7",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf2413328dd2071e1d7a4b",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf19b14719da83147f1581",
+    "agent_name": "Legal Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  },
+  {
+    "query_id": "Q4",
+    "query_text": "Should we invest in improving platform reliability and scalability?",
+    "memory_id": "6acf1c1b4719da83147f1584",
+    "agent_name": "Sales Agent",
+    "label": "not_relevant",
+    "raw_label": "Not relevant",
+    "review_notes": "Not relevant for platform reliability and scalability"
+  }
+]

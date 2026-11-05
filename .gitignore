@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.venv312/
+venv312/
+.env
+.env
+.env.*
+*.env
+*.env.*
+*.bak
+backend/.env.env.bak
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# ML / training
+*.pt
+*.pth
+*.bin
+*.safetensors
+wandb/
+mlruns/
+
+# Temporary
+*.tmp
+*.temp
+
+all_code.txt
+FounderVerse_Full_Codebase.txt
+founderverse_review.txt
