@@ -2,17 +2,14 @@
 from datetime import datetime, timezone
 from functools import lru_cache
 from typing import Any
-
-from sentence_transformers import SentenceTransformer
-
 from app.database.mongodb import mongodb
-
 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 @lru_cache(maxsize=1)
-def get_embedding_model() -> SentenceTransformer:
+def get_embedding_model():
+    from sentence_transformers import SentenceTransformer
     """Load the embedding model once per process."""
     return SentenceTransformer(EMBEDDING_MODEL_NAME)
 
