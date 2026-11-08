@@ -651,36 +651,6 @@ export default function FounderVerseDashboard({
                 </p>
               </div>
             </div>
-            {/* RESEARCH-ONLY BACKEND LATENCY METRICS — remove after evaluation. */}
-            {boardroomResponse.performance && (() => {
-              // Support both the stage-level timing schema and the backend's
-              // current aggregate consultation-latency schema.
-              const perf = boardroomResponse.performance;
-              const totalMs = perf.total_backend_ms ?? perf.backend_consultation_latency_ms;
-              const stageMetrics = [
-                ["Context preparation", perf.context_preparation_ms],
-                ["Initial opinions stage", perf.initial_opinions_ms],
-                ["Discussion stage", perf.discussion_ms],
-                ["Final synthesis stage", perf.synthesis_ms],
-              ].filter(([, value]) => value != null);
-              const hasTotal = totalMs != null;
-              return (
-                <div className="coming-card research-performance" style={{ margin: "1rem 0", padding: "1rem 1.25rem", border: "1px dashed rgba(139, 92, 246, .65)" }}>
-                  <span className="eyebrow">RESEARCH ONLY · BACKEND LATENCY</span>
-                  <h3 style={{ margin: "0.4rem 0 0.8rem" }}>Response-generation timing</h3>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))", gap: "0.75rem" }}>
-                    {hasTotal && (
-                      <div><small>{perf.backend_consultation_latency_ms != null && perf.total_backend_ms == null ? "Backend consultation latency" : boardroomResponse.mode === "both" ? "Combined backend phases" : "Total backend workflow"}</small><div><strong>{(Number(totalMs) / 1000).toFixed(2)} s</strong></div><small>{Number(totalMs).toLocaleString(undefined, { maximumFractionDigits: 2 })} ms</small></div>
-                    )}
-                    {stageMetrics.map(([label, value]) => (
-                      <div key={label}><small>{label}</small><div><strong>{(Number(value) / 1000).toFixed(2)} s</strong></div><small>{Number(value).toLocaleString(undefined, { maximumFractionDigits: 2 })} ms</small></div>
-                    ))}
-                  </div>
-                  {!hasTotal && stageMetrics.length === 0 && <p style={{ margin: "0.5rem 0", color: "#fca5a5" }}>No timing values were returned by the backend for this request.</p>}
-                  <p style={{ margin: "0.75rem 0 0", fontSize: "0.8rem", opacity: 0.75 }}>{perf.measurement || "Backend orchestration timings only; browser rendering and display time are excluded."} Remove this panel after research evaluation.</p>
-                </div>
-              );
-            })()}
             {/* AI AGENT RESPONSES */}
             <div className="agent-conversation">
               {boardroomResponse.responses?.map(
