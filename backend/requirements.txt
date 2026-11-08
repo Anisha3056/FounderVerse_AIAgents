@@ -10,3 +10,4 @@ google-genai
 PyJWT
 pwdlib[argon2]
 email-validator
+sentence-transformers
