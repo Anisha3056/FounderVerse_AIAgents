@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-3.8-flash"
 
-    cors_origins: str = "http://localhost:5173"
+    cors_origins = "http://localhost:5173,https://founderverse-chi.vercel.app"
     
     jwt_secret_key: str
     jwt_algorithm: str = "HS256"
