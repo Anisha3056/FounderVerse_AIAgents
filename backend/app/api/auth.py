@@ -233,7 +233,7 @@ async def resend_verification(request: EmailVerificationRequest):
             logger.exception("Failed to resend verification email")
 
     return {
-        "message": "If an unverified FounderVerse account exists for this address, a verification email has been sent. Check your inbox and spam folder.",
+        "message": "If an unverified FounderVerse account exists for this address, a verification email will be sent. If you requested one recently, wait at least 60 seconds before trying again. Check your inbox and spam folder.",
     }
 
 
