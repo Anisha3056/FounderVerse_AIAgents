@@ -5,6 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
+
 class Settings(BaseSettings):
     app_name: str = "FounderVerse API"
     app_version: str = "1.0.0"
@@ -17,10 +18,23 @@ class Settings(BaseSettings):
     gemini_model: str = "gemini-3.8-flash"
 
     cors_origins: str = "http://localhost:5173,https://founderverse-chi.vercel.app"
-    
+
     jwt_secret_key: str
     jwt_algorithm: str = "HS256"
     access_token_expire_minutes: int = 60
+
+    # SMTP configuration. Set these as environment variables on Render.
+    email_smtp_host: str | None = None
+    email_smtp_port: int = 587
+    email_smtp_username: str | None = None
+    email_smtp_password: str | None = None
+    email_smtp_from: str | None = None
+    email_smtp_use_tls: bool = True
+    email_smtp_use_ssl: bool = False
+
+    frontend_base_url: str = "https://founderverse-chi.vercel.app"
+    email_verification_expiry_minutes: int = 30
+    email_verification_resend_cooldown_seconds: int = 60
 
     model_config = SettingsConfigDict(
         env_file=BASE_DIR / ".env",
