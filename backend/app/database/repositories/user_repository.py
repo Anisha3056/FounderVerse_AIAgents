@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from bson import ObjectId
@@ -21,6 +21,10 @@ class UserRepository:
         result = self.collection.insert_one({
             "email": email.lower().strip(),
             "password_hash": password_hash,
+            "email_verified": False,
+            "email_verification_token_hash": None,
+            "email_verification_expires_at": None,
+            "verification_last_sent_at": None,
             "company_id": None,
             "created_at": now,
             "updated_at": now,
@@ -36,6 +40,64 @@ class UserRepository:
         except Exception:
             return None
         return self.collection.find_one({"_id": object_id})
+
+    def set_email_verification(
+        self,
+        email: str,
+        token_hash: str,
+        expires_at: datetime,
+        sent_at: datetime,
+        cooldown_seconds: int = 60,
+    ) -> bool:
+        """Store a hashed, expiring token and enforce a resend cooldown."""
+        cooldown_cutoff = sent_at - timedelta(seconds=cooldown_seconds)
+
+        result = self.collection.update_one(
+            {
+                "email": email.lower().strip(),
+                "email_verified": {"$ne": True},
+                "$or": [
+                    {"verification_last_sent_at": {"$exists": False}},
+                    {"verification_last_sent_at": None},
+                    {"verification_last_sent_at": {"$lte": cooldown_cutoff}},
+                ],
+            },
+            {
+                "$set": {
+                    "email_verification_token_hash": token_hash,
+                    "email_verification_expires_at": expires_at,
+                    "verification_last_sent_at": sent_at,
+                    "updated_at": sent_at,
+                }
+            },
+        )
+        return result.modified_count == 1
+
+    def verify_email_token(
+        self,
+        token_hash: str,
+        verified_at: datetime,
+    ) -> dict[str, Any] | None:
+        """Atomically verify an account and consume its one-time token."""
+        return self.collection.find_one_and_update(
+            {
+                "email_verification_token_hash": token_hash,
+                "email_verification_expires_at": {"$gt": verified_at},
+                "email_verified": {"$ne": True},
+            },
+            {
+                "$set": {
+                    "email_verified": True,
+                    "email_verified_at": verified_at,
+                    "updated_at": verified_at,
+                },
+                "$unset": {
+                    "email_verification_token_hash": "",
+                    "email_verification_expires_at": "",
+                },
+            },
+            return_document=ReturnDocument.AFTER,
+        )
 
     def attach_company(self, user_id: str, company_id: str) -> bool:
         try:
