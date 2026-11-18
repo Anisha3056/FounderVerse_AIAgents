@@ -1,7 +1,7 @@
 const API_BASE_URL = (
   import.meta.env.VITE_API_BASE_URL ||
   "http://127.0.0.1:8000"
-).replace(/\/+$/, "");
+).replace(/\\/+$/, "");
 
 async function request(endpoint, options = {}) {
   const response = await fetch(`${API_BASE_URL}${endpoint}`, {
@@ -46,20 +46,25 @@ async function request(endpoint, options = {}) {
 export async function registerUser(email, password) {
   return request("/api/auth/register", {
     method: "POST",
-    body: JSON.stringify({
-      email,
-      password,
-    }),
+    body: JSON.stringify({ email, password }),
   });
 }
 
 export async function loginUser(email, password) {
   return request("/api/auth/login", {
     method: "POST",
-    body: JSON.stringify({
-      email,
-      password,
-    }),
+    body: JSON.stringify({ email, password }),
+  });
+}
+
+export async function verifyEmail(token) {
+  return request(`/api/auth/verify-email?token=${encodeURIComponent(token)}`);
+}
+
+export async function resendVerificationEmail(email) {
+  return request("/api/auth/resend-verification", {
+    method: "POST",
+    body: JSON.stringify({ email }),
   });
 }
 
@@ -141,10 +146,7 @@ export async function askBoardroom(
     headers: {
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({
-      question,
-      mode,
-    }),
+    body: JSON.stringify({ question, mode }),
   });
 }
 
@@ -163,10 +165,7 @@ export async function continueBoardroom(
     headers: {
       Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify({
-      question,
-      responses,
-    }),
+    body: JSON.stringify({ question, responses }),
   });
 }
 
@@ -195,10 +194,7 @@ export async function submitDecision(
 // DECISION HISTORY
 // =====================================================
 
-export async function getDecisionHistory(
-  companyId,
-  token
-) {
+export async function getDecisionHistory(companyId, token) {
   return request(`/api/decisions/${companyId}`, {
     headers: {
       Authorization: `Bearer ${token}`,
