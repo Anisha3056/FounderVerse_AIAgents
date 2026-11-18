@@ -99,7 +99,12 @@ async def _issue_verification_email(email: str) -> bool:
     if not stored:
         return False
 
-    await asyncio.to_thread(send_verification_email, email, raw_token)
+    try:
+        await asyncio.to_thread(send_verification_email, email, raw_token)
+    except Exception:
+        repository.clear_email_verification_attempt(email)
+        raise
+
     return True
 
 
