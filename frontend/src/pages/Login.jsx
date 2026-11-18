@@ -88,6 +88,11 @@ export default function Login({ onLogin }) {
       setError(err.message);
       if (err.code === "EMAIL_NOT_VERIFIED") {
         setPendingEmail(email.trim());
+      } else if (isRegistering && err.status === 503) {
+        // The account may already exist even if SMTP delivery failed.
+        // Switch to login mode so the user can request another link.
+        setPendingEmail(email.trim());
+        setIsRegistering(false);
       }
     } finally {
       setLoading(false);
