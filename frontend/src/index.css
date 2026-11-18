@@ -280,6 +280,17 @@ textarea:focus {
   line-height: 1.6;
 }
 
+.auth-success {
+  padding: 12px 15px;
+  margin-bottom: 16px;
+  border: 1px solid var(--good-border);
+  border-radius: var(--radius-sm);
+  background: var(--good-soft);
+  color: var(--good);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 /* =========================================================
    AUTH + COMPANY SETUP
    ========================================================= */
