@@ -13,7 +13,6 @@ import FounderVerseDashboard from "./FounderVerseDashboard";
 
 
 export default function App() {
-
   const [loading, setLoading] = useState(true);
 
   const [token, setToken] = useState(
@@ -21,41 +20,32 @@ export default function App() {
   );
 
   const [user, setUser] = useState(null);
-
   const [company, setCompany] = useState(null);
 
-  const [showLanding, setShowLanding] = useState(true);
-
-
+  // A verification link must open the Login screen rather than the landing page.
+  const [showLanding, setShowLanding] = useState(() => {
+    return !new URLSearchParams(window.location.search).has("verify_email");
+  });
 
   useEffect(() => {
-
     async function restoreSession() {
-
       if (!token) {
         setLoading(false);
         return;
       }
 
       try {
-
         const currentUser = await getCurrentUser(token);
-
         setUser(currentUser);
 
-
         if (currentUser.company_id) {
-
           const currentCompany = await getCompany(
             currentUser.company_id,
             token
           );
-
           setCompany(currentCompany);
         }
-
       } catch (error) {
-
         console.error("Session restoration failed:", error);
 
         localStorage.removeItem("founderverse_token");
@@ -65,87 +55,66 @@ export default function App() {
         setToken(null);
         setUser(null);
         setCompany(null);
-
       } finally {
-
         setLoading(false);
-
       }
     }
 
     restoreSession();
-
   }, [token]);
 
-
   function handleLogin(result) {
-
     setToken(result.access_token);
-
     setUser({
       user_id: result.user_id,
       company_id: result.company_id,
     });
-
   }
-
 
   async function handleCompanyCreated(companyId) {
-  try {
-    const currentCompany = await getCompany(companyId, token);
+    try {
+      const currentCompany = await getCompany(companyId, token);
 
-    setUser((previous) => ({
-      ...previous,
-      company_id: companyId,
-    }));
+      setUser((previous) => ({
+        ...previous,
+        company_id: companyId,
+      }));
 
-    setCompany(currentCompany);
+      setCompany(currentCompany);
 
-    localStorage.setItem(
-      "founderverse_company_id",
-      companyId
-    );
-  } catch (error) {
-    console.error("Failed to load created company:", error);
+      localStorage.setItem(
+        "founderverse_company_id",
+        companyId
+      );
+    } catch (error) {
+      console.error("Failed to load created company:", error);
+    }
   }
-}
-
 
   if (loading) {
-
     return (
       <div className="loading-screen">
         Loading FounderVerse...
       </div>
     );
-
   }
 
   if (!token && showLanding) {
-  return <Landing onEnter={() => setShowLanding(false)} />;
-}
-
-
-  if (!token) {
-
-    return (
-      <Login onLogin={handleLogin} />
-    );
-
+    return <Landing onEnter={() => setShowLanding(false)} />;
   }
 
+  if (!token) {
+    return <Login onLogin={handleLogin} />;
+  }
 
   if (!user?.company_id) {
-
     return (
       <CompanySetup
         token={token}
         onCompanyCreated={handleCompanyCreated}
       />
     );
-
   }
-
 
   return (
     <FounderVerseDashboard
