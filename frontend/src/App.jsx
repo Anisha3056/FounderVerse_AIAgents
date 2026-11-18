@@ -29,6 +29,24 @@ export default function App() {
 
   useEffect(() => {
     async function restoreSession() {
+      // A verification link must be handled in the signed-out screen,
+      // even if this browser currently has another user's session.
+      const verificationLink = new URLSearchParams(
+        window.location.search
+      ).has("verify_email");
+
+      if (verificationLink) {
+        localStorage.removeItem("founderverse_token");
+        localStorage.removeItem("founderverse_user_id");
+        localStorage.removeItem("founderverse_company_id");
+        setToken(null);
+        setUser(null);
+        setCompany(null);
+        setShowLanding(false);
+        setLoading(false);
+        return;
+      }
+
       if (!token) {
         setLoading(false);
         return;
