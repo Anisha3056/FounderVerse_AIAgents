@@ -73,6 +73,23 @@ class UserRepository:
         )
         return result.modified_count == 1
 
+    def clear_email_verification_attempt(self, email: str) -> None:
+        """Allow an immediate retry when the mail provider rejects a send."""
+        self.collection.update_one(
+            {
+                "email": email.lower().strip(),
+                "email_verified": {"$ne": True},
+            },
+            {
+                "$set": {
+                    "email_verification_token_hash": None,
+                    "email_verification_expires_at": None,
+                    "verification_last_sent_at": None,
+                    "updated_at": datetime.now(timezone.utc),
+                }
+            },
+        )
+
     def verify_email_token(
         self,
         token_hash: str,
