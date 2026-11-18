@@ -76,7 +76,10 @@ async def _check_email_domain(email: str) -> str:
         logger.exception("Email-domain deliverability check failed")
         raise HTTPException(
             status_code=503,
-            detail="We couldn't check this email domain right now. Please try again.",
+            detail={
+                "code": "EMAIL_CHECK_UNAVAILABLE",
+                "message": "We couldn't check this email domain right now. Please try again.",
+            },
         ) from exc
 
 
@@ -185,7 +188,10 @@ async def register(user: UserRegister):
         logger.exception("Failed to send verification email for new account")
         raise HTTPException(
             status_code=503,
-            detail="Your account was created but the verification email could not be sent. Please use Resend verification after the email service is available.",
+            detail={
+                "code": "EMAIL_DELIVERY_UNAVAILABLE",
+                "message": "Your account was created but the verification email could not be sent. Please use Resend verification after the email service is available.",
+            },
         ) from exc
 
     return {
